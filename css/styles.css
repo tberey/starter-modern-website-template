@@ -1,0 +1,548 @@
+/* ---- DOM CSS Properties ---- */
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 90);
+    color: white;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+html body a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container-footer {
+    bottom: 0;
+}
+
+.container-header {
+    top: 0;
+}
+
+.container-1-header {
+    display: grid;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    grid-template-columns: 1fr;
+}
+
+.container-3-header {
+    display: grid;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container-1-banner {
+    display: grid;
+    position: fixed;
+    z-index: 97;
+    width: 100%;
+    height: min-content;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: 1fr;
+}
+
+.container-2-banner {
+    display: grid;
+    position: fixed;
+    z-index: 97;
+    width: 100%;
+    height: min-content;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-1-col-1-banner {
+    display: grid;
+    z-index: 97;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: 1fr;
+    grid-column-start: 1;
+}
+
+.container-1 {
+    display: grid;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    grid-template-columns: 1fr;
+}
+
+.container-2 {
+    display: grid;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-3 {
+    display: grid;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container-4 {
+    display: grid;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container-5 {
+    display: grid;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.col-1 {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    grid-column-start: 1;
+}
+
+.col-2 {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    grid-column-start: 2;
+}
+
+.col-3 {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    grid-column-start: 3;
+}
+
+.col-4 {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    grid-column-start: 4;
+}
+
+.col-5 {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    grid-column-start: 5;
+}
+
+.col-margin-space-l {
+    margin-left: 20px;
+}
+
+.col-margin-space-r {
+    margin-right: 20px;
+}
+
+.col-padding-space-t {
+    padding-top: 15px;
+}
+
+.item-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.item-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.item-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-left {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.image-right {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/* ---- Header CSS Properties ---- */
+
+.header-banner-js {
+    z-index: 99;
+    background-color: grey;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.header-menu-burger-button {
+    position: fixed;
+    z-index: 98;
+    top: 25px;
+    left: 25px;
+    width: 61px;
+    height: 61px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 10, 0.7);
+    cursor: pointer;
+}
+
+.header-menu-burger-icon {
+    margin-top: 6px;
+    display: inline-block;
+}
+
+.header-menu-burger-icon .bar1,
+.header-menu-burger-icon .bar2,
+.header-menu-burger-icon .bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 9px 13px;
+    transition: 0.4s;
+}
+
+.header-menu-burger-button.transform .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.header-menu-burger-button.transform .bar2 {
+    opacity: 0;
+}
+
+.header-menu-burger-button.transform .bar3 {
+    transform: translate(0, -13px) rotate(45deg);
+}
+
+.header-menu {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0px;
+    width: 130px;
+    height: fit-content;
+    border-radius: 0 0 50px 0;
+    background-color: rgba(0, 0, 10, 0.7);
+    overflow-y: auto;
+    font-size: 1.2rem;
+}
+
+.header-menu a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-menu a:hover {
+    background-color: black;
+}
+
+.header-image-banner {
+    width: 100%;
+    height: auto;
+}
+
+.header-image {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header-image-logo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+    background-image: url('../assets/images/logo.png');
+}
+
+.header-image-scroller {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: opacity 2s ease-in-out;
+}
+
+.header-image-scroller.active-image {
+    opacity: 1;
+}
+
+.header-image-1 {
+    background-image: url('../assets/images/banner-auto-scroller/stock-photo-1.jpg');
+}
+
+.header-image-2 {
+    background-image: url('../assets/images/banner-auto-scroller/stock-photo-2.jpg');
+}
+
+.header-image-3 {
+    background-image: url('../assets/images/banner-auto-scroller/stock-photo-3.jpg');
+}
+
+.header-icons-spacing-r {
+    margin-right: 4%;
+}
+
+.header-social-icons {
+    width: 15%;
+    max-width: 65px;
+    height: auto;
+}
+
+.header-contact-icons {
+    width: 11%;
+    max-width: 50px;
+    height: auto;
+}
+
+.header-contact-text {
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    font-size: 1.35vw;
+}
+
+.header-sticky-content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15%;
+    max-width: fit-content;
+    min-width: min-content;
+    height: fit-content;
+    padding: 15px;
+    white-space: nowrap;
+    border-radius: 0px 0px 0px 25px;
+    background-color: rgba(0, 0, 10, 0.4);
+    font-size: 1.4rem;
+    display: none;
+}
+
+.header-sticky-content-show {
+    display: block;
+}
+
+.header-sticky-content .header-social-icons {
+    width: 24%;
+}
+
+.header-sticky-content .header-contact-icons {
+    width: 22%;
+}
+
+.header-sticky-content .header-contact-text {
+    max-width: 26vw;
+}
+
+.header-feedback-button {
+    width: fit-content;
+    padding: 4px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(90, 20, 20);
+    font-size: 1.4vw;
+}
+
+.header-space-bottom {
+    padding-bottom: 60px;
+}
+
+
+
+/* ---- Footer CSS Properties ---- */
+
+.footer-top-button {
+    z-index: 101;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    display: none;
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 10, 0.4);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.footer-top-button:hover {
+    background-color: black;
+}
+
+.footer-banner {
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    background-color: rgba(0, 0, 10, 0.4);
+    font-size: 0.8rem;
+}
+
+.footer-space-top {
+    padding-top: 140px;
+}
+
+
+
+
+
+/* ---- Small Screen or Mobile CSS Properties ---- */
+
+@media (max-width: 899px) {
+    /* (Small/Mobile) DOM CSS Properties */
+
+    .container-1 {
+        width: 94%;
+    }
+
+    .container-2 {
+        width: 94%;
+    }
+
+    .container-3 {
+        width: 94%;
+    }
+
+    .container-4 {
+        width: 94%;
+    }
+
+    .container-5 {
+        width: 94%;
+    }
+
+    .container-small-screen-layout-override {
+        display: block;
+    }
+
+    .col-small-screen-margin-space-0 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .small-screen-hide {
+        display: none;
+    }
+
+
+
+    /* (Small/Mobile) Header CSS Properties */
+
+    .header-banner-js {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .header-image-logo {
+        background-position: right center;
+    }
+
+    .header-social-icons {
+        width: 24%;
+        max-width: 56px;
+    }
+
+    .header-contact-icons {
+        width: 20%;
+        max-width: 48px;
+    }
+
+    .header-contact-text {
+        font-size: 2.5vw;
+    }
+
+    .header-feedback-button {
+        padding: 2px;
+        border: 1px solid white;
+        font-size: 2vw;
+    }
+
+
+
+    /* (Small/Mobile) Footer CSS Properties */
+
+    .footer-banner {
+        font-size: 0.64rem;
+    }
+}
